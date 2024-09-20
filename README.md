@@ -1,18 +1,44 @@
-## Getting Started
+# List of Object
+Use ArrayList
+```
+import java.util.ArrayList;
+ArrayList<Object> al = new ArrayList<Object>();
+```
+## Object
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Example
+```
+class Test{
 
-## Folder Structure
+    int test1;
+    String test2;
+    Test(int t1, String t2){
+        test1 = t1;
+        test2 = t2;
+    }
+}
+```
+## List Of Object
 
-The workspace contains two folders by default, where:
+List of Test object
+```
+import java.util.ArrayList;
+import Test;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+class Main{
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    public void static main(String [] args){
+        Test t1 = new Test(1, 'test1');
+        Test t2 = new Test(2, 'test2');
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+        ArrayList<Test> listTest = new ArrayList<Test>();
+        listTest.add(t1);
+        listTest.add(t2);
 
-## Dependency Management
+        System.out.println(listTest.get(0).test1);
+        System.out.println(listTest.get(0).test2);
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    }
+}
+
+```

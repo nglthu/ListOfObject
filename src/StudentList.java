@@ -22,7 +22,7 @@ public class StudentList {
         for (int i=0; i < st.size(); i ++){
               
 
-            if(st.get(i).studentId = studentID){
+            if(st.get(i).studentId == studentID){
              
               System.out.print("true");
 

@@ -10,7 +10,7 @@ public class testStudent {
 
          ArrayList<Student> sl = new ArrayList<Student>();
         Student s1 = new Student("Nguyen Thi Lan Anh", 12345);
-        Student s2 = new Student("Tran Van Minh", 1111);
+        Student s2 = new Student("Tran Van Minh", 1);
 
         sl.add(s1);
         sl.add(s2);

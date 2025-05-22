@@ -1,32 +1,26 @@
 
 import java.util.ArrayList;
-import Student;
 
 public class StudentList {
 
     ArrayList<Student> st = new ArrayList<Student>();
 
-    
-    public  ArrayList<Student>  addStudent(Student stu){
+    public ArrayList<Student> addStudent(Student stu) {
 
         st.add(stu);
         return st;
 
     }
 
-    public ArrayList<Student> getEditStudent(String fullname, int studentID){
+    public ArrayList<Student> getEditStudent(String fullname, int studentID) {
 
-      
-        
-      
-        for (int i=0; i < st.size(); i ++){
-              
+        for (int i = 0; i < st.size(); i++) {
 
-            if(st.get(i).studentId == studentID){
-             
-              System.out.print("true");
+            if (st.get(i).studentId == studentID) {
 
-             st.get(i).fullname = fullname;
+                System.out.print("true");
+
+                st.get(i).fullname = fullname;
             }
 
         }
@@ -34,12 +28,11 @@ public class StudentList {
         return st;
     }
 
-    public void printStudentList(){
-    int len = st.size();
+    public void printStudentList() {
+        int len = st.size();
 
-        for (int i=0; i< len; i++){
-        System.out.println("Student ID: "+st.get(i).studentId +" Fullnane: "+st.get(i).fullname);
-
+        for (int i = 0; i < len; i++) {
+            System.out.println("Student ID: " + st.get(i).studentId + " Fullnane: " + st.get(i).fullname);
 
         }
 

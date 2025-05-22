@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class testStudent {
 
-    public void test() {
+    public void testEdit() {
 
         ArrayList<Student> sl = new ArrayList<Student>();
         Student s1 = new Student("Nguyen Thi Lan Anh", 12345);

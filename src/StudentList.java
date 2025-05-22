@@ -14,7 +14,7 @@ public class StudentList {
 
     }
 
-    public ArrayList<Student> editStudent(String studentID, String name){
+    public ArrayList<Student> getEditStudent(String studentID, String name){
 
        
 

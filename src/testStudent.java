@@ -9,8 +9,8 @@ public class testStudent {
     public void test(){
 
          ArrayList<Student> sl = new ArrayList<Student>();
-        Student s1 = new Student("Nguyen Thi Lan Anh", "msv012344");
-        Student s2 = new Student("Tran Van Minh", "3");
+        Student s1 = new Student("Nguyen Thi Lan Anh", 12345);
+        Student s2 = new Student("Tran Van Minh", 1111);
 
         sl.add(s1);
         sl.add(s2);
@@ -29,25 +29,21 @@ public class testStudent {
         //cap nhat thong tin
         
         System.out.println("Enter student ID");
-        Scanner studentID = new Scanner(System.in);  // Create a Scanner object
+        Scanner studentID = new Scanner(System.in) ;
 
-        String s = studentID.nextLine();
-        System.out.println("student ID:"+s);
-
+int s = studentID.nextInt();
+       
+    
 
         System.out.println("Enter student fullname");
 
         Scanner fullname = new Scanner(System.in);  // Create a Scanner object
 
         String newName = fullname.nextLine();
-        System.out.println("student name:"+newName);
+      
+      
 
-        //Edit2
-        //stuList.editStudent(studentCall, newName);
-        System.out.println("new name"+ newName);
-        System.out.println("student id"+ s);
-
-        stuList.getEditStudent(s, newName);
+        stuList.getEditStudent(newName, s);
        
         stuList.printStudentList();
         

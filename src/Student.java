@@ -1,8 +1,8 @@
 public class Student {
     String fullname;
-    String studentId;
+    int studentId;
 
-    Student(String name, String id){
+    Student(String name, int id){
         fullname = name;
         studentId = id;
     }

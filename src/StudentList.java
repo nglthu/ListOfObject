@@ -14,15 +14,19 @@ public class StudentList {
 
     }
 
-    public ArrayList<Student> getEditStudent(String studentID, String name){
+    public ArrayList<Student> getEditStudent(String fullname, int studentID){
 
-       
-
+      
+        
+      
         for (int i=0; i < st.size(); i ++){
+              
 
-            if(st.get(i).studentId == studentID){
+            if(st.get(i).studentId = studentID){
+             
+              System.out.print("true");
 
-             st.get(i).fullname = name;
+             st.get(i).fullname = fullname;
             }
 
         }

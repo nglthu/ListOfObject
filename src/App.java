@@ -1,5 +1,7 @@
 
 import java.util.ArrayList;
+import java.util.Scanner;
+
 import Student;
 
 public class App {
@@ -22,13 +24,30 @@ public class App {
 
         StudentList stuList = new StudentList();
         stuList.addStudent(s1);
+       
 
-        int len = stuList.st.size();
+        //cap nhat thong tin
+        
+        System.out.println("Enter student ID");
+        Scanner studentID = new Scanner(System.in);  // Create a Scanner object
+        String studentCall = studentID.nextLine();
+        System.out.println("student ID:"+studentCall);
 
-        for (int i=0; i< len; i++){
-        System.out.println("Student ID: "+stuList.st.get(i).studentId +" Fullnane: "+stuList.st.get(i).fullname);
+
+        System.out.println("Enter student fullname");
+        Scanner fullname = new Scanner(System.in);  // Create a Scanner object
+        String newName = fullname.nextLine();
+        System.out.println("student name:"+newName);
+
+        //Edit
+        stuList.editStudent(studentCall, newName);
 
 
-        }
+
+
+
+        //
+
+        
     }
 }

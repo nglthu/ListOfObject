@@ -13,4 +13,31 @@ public class StudentList {
         return st;
 
     }
+
+    public ArrayList<Student> editStudent(String studentID, String name){
+
+       
+
+        for (int i=0; i < st.size(); i ++){
+
+            if(st.get(i).studentId == studentID){
+
+             st.get(i).fullname = name;
+            }
+
+        }
+
+        return st;
+    }
+
+    public void printStudentList(){
+    int len = st.size();
+
+        for (int i=0; i< len; i++){
+        System.out.println("Student ID: "+st.get(i).studentId +" Fullnane: "+st.get(i).fullname);
+
+
+        }
+
+    }
 }

@@ -3,6 +3,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class testStudent {
+     ArrayList<Student> sl = new ArrayList<Student>();
+
+    public ArrayList<Student> addList(){
+          Student s1 = new Student("Nguyen Thi Lan Anh", 12345);
+          Student s2 = new Student("Tran Van Minh", 1);
+          sl.add(s1);
+          sl.add(s2);
+        return sl;
+    }
 
     public void testEdit() {
 
@@ -33,8 +42,13 @@ public class testStudent {
         stuList.getEditStudent(newName, s);
 
         stuList.printStudentList();
-        stuList.getDeleteStudent(s);
+        
+    }
+
+    public void testDelete(StudentList stuList, int studentID){
+        stuList.getDeleteStudent(studentID);
         stuList.printStudentList();
+
 
     }
 

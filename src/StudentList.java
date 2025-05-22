@@ -28,6 +28,21 @@ public class StudentList {
         return st;
     }
 
+    public ArrayList<Student> getDeleteStudent(int studentID) {
+
+        for (int i = 0; i < st.size(); i++) {
+
+            if (st.get(i).studentId == studentID) {
+
+                st.remove(i);
+
+            }
+
+        }
+
+        return st;
+    }
+
     public void printStudentList() {
         int len = st.size();
 

@@ -33,6 +33,8 @@ public class testStudent {
         stuList.getEditStudent(newName, s);
 
         stuList.printStudentList();
+        stuList.getDeleteStudent(s);
+        stuList.printStudentList();
 
     }
 

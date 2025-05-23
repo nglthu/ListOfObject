@@ -7,7 +7,8 @@ public class App {
         
         testStudent ts = new testStudent();
 
-        ts.testEdit();
+        ts.testEditDelete();
+        
        
 
 

@@ -33,14 +33,13 @@ public class ObjectList {
 
     public  void printObject() throws Exception{
 
-      //  Class<?> clazz = obj.getClass();
-
-       // Field fieldID = clazz.getField("ID");
+   
 
         for (int i=0; i< obj.size(); i++)
 
 
         {
+             System.out.print("Name Of Class :");
             
             System.out.println(obj.get(i).getClass().getName());
             System.out.print("ID :");

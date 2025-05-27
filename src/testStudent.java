@@ -3,12 +3,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class testStudent {
-     ArrayList<Student> sl = new ArrayList<Student>();
+     ArrayList<Student>  = new ArrayList<Student>();
 
     public ArrayList<Student> addList(){
           Student s1 = new Student("Nguyen Thi Lan Anh", 12345);
           Student s2 = new Student("Tran Van Minh", 1);
-          Student s3 = new Student("Nguyen An", 101010);
+          Student s3 = new Student("Nguyen Quoc Huy", 101010);
           sl.add(s1);
           sl.add(s2);
           sl.add(s3);

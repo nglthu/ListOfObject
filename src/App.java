@@ -5,9 +5,19 @@ public class App {
         
         
         
-        testStudent ts = new testStudent();
+       // testStudent ts = new testStudent();
 
-        ts.testEditDelete();
+        Student st = new Student("abc", 10);
+        Book b = new Book("OOP",100);
+
+       // ts.testEditDelete();
+        ObjectList ol = new ObjectList();
+
+        ol.addObject(b);
+        ol.addObject(st);
+       
+
+        ol.printObject();
         
        
 

@@ -43,9 +43,13 @@ public class ObjectList {
         {
             
             System.out.println(obj.get(i).getClass().getName());
-             System.out.println(obj.get(i).hashCode());
+            System.out.print("ID :");
+            
             System.out.println(obj.get(i).getClass().getField("ID").getInt(obj.get(i)));
 
+            System.out.print("Name :");
+
+            System.out.println(obj.get(i).getClass().getField("Name").getChar(obj.get(i)));
            
         }
   

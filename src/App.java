@@ -7,8 +7,10 @@ public class App {
         
        // testStudent ts = new testStudent();
 
-        Student st = new Student("abc", 10);
-        Book b = new Book("OOP",100);
+
+        Student st = new Student('1', 10);
+
+        Book b = new Book('2',100);
 
        // ts.testEditDelete();
         ObjectList ol = new ObjectList();

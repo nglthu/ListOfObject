@@ -1,12 +1,12 @@
 public class Book {
-    public String bookname;
+    public char Name;
     public int ID;
 
-    Book(String name, int id){
-        bookname = name;
+    Book(char name, int id){
+        Name = name;
         ID = id;
     }
-    public String getName(){
-        return bookname;
+    public char getName(){
+        return Name;
     }
 }

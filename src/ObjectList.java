@@ -49,7 +49,8 @@ public class ObjectList {
 
             System.out.print("Name :");
 
-            System.out.println(obj.get(i).getClass().getField("Name").getChar(obj.get(i)));
+            System.out.println(obj.get(i).getClass().getField("Name").get(obj.get(i)));
+             
            
         }
   

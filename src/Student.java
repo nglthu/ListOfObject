@@ -1,13 +1,13 @@
 public class Student {
-    public char Name;
+    public String Name;
     public int ID;
 
-    Student(char name, int id){
+    Student(String name, int id){
         Name = name;
         ID = id;
     }
 
-    public char getName(){
+    public String layName(){
         return Name;
     }
 }

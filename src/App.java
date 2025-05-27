@@ -8,9 +8,9 @@ public class App {
        // testStudent ts = new testStudent();
 
 
-        Student st = new Student('1', 10);
+        Student st = new Student("Le Thu Nguyen", 10);
 
-        Book b = new Book('2',100);
+        Book b = new Book("dkdkdk",100);
 
        // ts.testEditDelete();
         ObjectList ol = new ObjectList();

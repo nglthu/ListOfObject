@@ -9,6 +9,7 @@ public class App {
 
 
         Student st = new Student("Le Thu Nguyen", 10);
+        Student s2 = new Student("Le Van Hung", 99);
 
         Book b = new Book("dkdkdk",100);
 
@@ -17,6 +18,7 @@ public class App {
 
         ol.addObject(b);
         ol.addObject(st);
+        ol.addObject(s2);
        
 
         ol.printObject();

@@ -1,6 +1,7 @@
 
-public class App {
-    public static void main(String[] args) throws Exception {
+public class testStudentSingle
+ {
+    public static void test() {
        
         
         
@@ -27,5 +28,4 @@ public class App {
 
 
     }
-    testStudentSingle.test();
 }

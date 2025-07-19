@@ -14,4 +14,18 @@ public class GenericObject {
         this.Name = name;
 
     }
+    public void setID(int id){
+        this.ID = id;
+    }
+    public int getID(){
+        return ID;
+    }
+
+    public void setvarInt1(int diem1){
+        this.varInt1 = diem1;
+    }
+
+     public int getvarInt1(){
+        return varInt1 ;
+    }
 }

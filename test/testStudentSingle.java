@@ -18,6 +18,7 @@ public class testStudentSingle {
         ol.addObject(student1);
         ol.addObject(student2);
         ol.addObject(student3);
+        ol.addObject(mark1);
 
         try {
 

@@ -17,8 +17,18 @@ public class ObjectList {
 
             return obj;
         } else {
+
+            if(stu.getClass().getName() == "Mark"){
+                 obj.add((Mark) stu);
+
+            return obj;
+
+            }
+            else {
+
             obj.add((Book) stu);
             return obj;
+            }
         }
 
     }

@@ -15,6 +15,7 @@ public class StudentList {
             System.out.println(e);
 
         }
+        return st;
 
     }
 
@@ -22,11 +23,11 @@ public class StudentList {
 
         for (int i = 0; i < st.size(); i++) {
 
-            if (st.get(i).studentId == studentID) {
+            if (st.get(i).ID == studentID) {
 
                 System.out.print("true");
 
-                st.get(i).fullname = fullname;
+                st.get(i).Name = fullname;
             }
 
         }
@@ -38,7 +39,7 @@ public class StudentList {
 
         for (int i = 0; i < st.size(); i++) {
 
-            if (st.get(i).studentId == studentID) {
+            if (st.get(i).ID == studentID) {
 
                 st.remove(i);
 
@@ -53,7 +54,7 @@ public class StudentList {
         int len = st.size();
 
         for (int i = 0; i < len; i++) {
-            System.out.println("Student ID: " + st.get(i).studentId + " Fullnane: " + st.get(i).fullname);
+            System.out.println("Student ID: " + st.get(i).ID + " Fullnane: " + st.get(i).Name);
 
         }
 

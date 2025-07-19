@@ -6,9 +6,15 @@ public class StudentList {
     ArrayList<Student> st = new ArrayList<Student>();
 
     public ArrayList<Student> addStudent(Student stu) {
+        try {
 
-        st.add(stu);
-        return st;
+            st.add(stu);
+            return st;
+        } catch (Exception e) {
+
+            System.out.println(e);
+
+        }
 
     }
 

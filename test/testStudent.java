@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class testStudent {
-     ArrayList<Student>  = new ArrayList<Student>();
+     ArrayList<Student>  sl = new ArrayList<Student>();
 
     public ArrayList<Student> addList(){
           Student s1 = new Student("Nguyen Thi Lan Anh", 12345);

@@ -1,8 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+    "java.project.sourcePaths": [
+        "src",
+        "test",
+        "src/Model",
+        "src/Controller"
     ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [],
     "java.debug.settings.onBuildFailureProceed": true
 }

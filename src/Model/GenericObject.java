@@ -1,4 +1,4 @@
-public class GenericObject {
+public abstract class GenericObject {
 
     public String Name;
     public int ID;
@@ -25,7 +25,10 @@ public class GenericObject {
         this.varInt1 = diem1;
     }
 
-     public int getvarInt1(){
+    public int getvarInt1(){
         return varInt1 ;
     }
+    //Interface 
+    //Unimplemented method
+    public void printGenericObject();
 }

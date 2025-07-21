@@ -30,7 +30,7 @@ public class ObjectList implements ObjectInterface {
 
     }
 
-    public void readObject() {
+    public void readObject(){
         try {
             for (int i = 0; i < obj.size(); i++)
 

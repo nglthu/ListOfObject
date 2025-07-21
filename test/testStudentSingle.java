@@ -22,7 +22,7 @@ public class testStudentSingle {
 
         try {
 
-            ol.printObject();
+            ol.readObject();
         } catch (Exception e) {
             System.out.println(e);
         }

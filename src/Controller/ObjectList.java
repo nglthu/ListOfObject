@@ -5,8 +5,6 @@ import java.lang.Object;
 
 public class ObjectList implements ObjectInterface {
 
-    ArrayList<Student> st = new ArrayList<Student>();
-    ArrayList<Book> book = new ArrayList<Book>();
     ArrayList<Object> obj = new ArrayList<Object>();
 
     public ArrayList<Object> createObject(Object stu) {

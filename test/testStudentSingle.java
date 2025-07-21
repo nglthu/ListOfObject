@@ -14,11 +14,11 @@ public class testStudentSingle {
         // ts.testEditDelete();
         ObjectList ol = new ObjectList();
 
-        ol.addObject(book1);
-        ol.addObject(student1);
-        ol.addObject(student2);
-        ol.addObject(student3);
-        ol.addObject(mark1);
+        ol.createObject(book1);
+        ol.createObject(student1);
+        ol.createObject(student2);
+        ol.createObject(student3);
+        ol.createObject(mark1);
 
         try {
 

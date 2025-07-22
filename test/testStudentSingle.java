@@ -10,6 +10,8 @@ public class testStudentSingle {
 
         Mark mark1 = new Mark();
         mark1.setName("Mon Toan");
+        mark1.setID(1);
+        mark1.setvarInt1(10);
 
         // ts.testEditDelete();
         ObjectList ol = new ObjectList();

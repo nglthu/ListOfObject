@@ -43,16 +43,21 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
 
                 System.out.println(obj.get(i).getClass().getName());
                 System.out.print("ID :");
-
+                //getInt
                 System.out.println(obj.get(i).getClass().getField("ID").getInt(obj.get(i)));
 
                 System.out.print("Name :");
-
+                //get
                 System.out.println(obj.get(i).getClass().getField("Name").get(obj.get(i)));
 
                 System.out.print("String 1 :");
 
                 System.out.println(obj.get(i).getClass().getField("varString1").get(obj.get(i)));
+
+                System.out.print("int  1 :");
+
+                System.out.println(obj.get(i).getClass().getField("varInt1").getInt(obj.get(i)));
+
 
             }
         } catch (Exception e) {

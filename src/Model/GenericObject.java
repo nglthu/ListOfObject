@@ -20,13 +20,37 @@ public abstract class GenericObject {
     public int getID(){
         return ID;
     }
+    
+     public void setvarString1(String string1){
+        this.varString1 = string1;
+    }
 
-    public void setvarInt1(int diem1){
-        this.varInt1 = diem1;
+    public String getvarString1(){
+        return varString1 ;
+    }
+
+    public void setvarString2(String string2){
+        this.varString2 = string2;
+    }
+
+    public String getvarString2(){
+        return varString2 ;
+    }
+
+    public void setvarInt1(int int_1){
+        this.varInt1 = int_1;
     }
 
     public int getvarInt1(){
         return varInt1 ;
+    }
+
+    public void setvarInt2(int int_2){
+        this.varInt2 = int_2;
+    }
+
+    public int getvarInt2(){
+        return varInt2 ;
     }
     //Interface 
     //Unimplemented method

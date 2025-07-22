@@ -6,7 +6,7 @@ public class testStudentSingle {
         Student student2 = new Student("Le Van Hung", 99);
         Student student3 = new Student("Nguyen Le Thu", 11, "Hanoi", "Ma345555", 10, 10);
 
-        Book book1 = new Book("Thinking in Java", 100);
+        Book b = new Book("Thinking in Java", 100);
 
         Mark mark1 = new Mark();
         mark1.setName("Mon Toan");
@@ -16,7 +16,7 @@ public class testStudentSingle {
         // ts.testEditDelete();
         ObjectList ol = new ObjectList();
 
-        ol.createObject(book1);
+        ol.createObject(b);
         ol.createObject(student1);
         ol.createObject(student2);
         ol.createObject(student3);

@@ -39,7 +39,7 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
             for (int i = 0; i < obj.size(); i++)
 
             {
-                System.out.print("Name Of Class :");
+                System.out.print("Object :");
 
                 System.out.println(obj.get(i).getClass().getName());
                 System.out.print("ID :");
@@ -50,13 +50,15 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
                 //get
                 System.out.println(obj.get(i).getClass().getField("Name").get(obj.get(i)));
 
-                System.out.print("String 1 :");
+                System.out.print("field 3 :");
 
                 System.out.println(obj.get(i).getClass().getField("varString1").get(obj.get(i)));
 
-                System.out.print("int  1 :");
+                System.out.print("field 4 :");
 
                 System.out.println(obj.get(i).getClass().getField("varInt1").getInt(obj.get(i)));
+
+                System.out.println("=========================");
 
 
             }

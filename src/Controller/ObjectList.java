@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 import java.lang.Object;
 
-public class ObjectList implements ObjectInterface {
+public class ObjectList implements ObjectInterface, ObjectCreate{
 
     ArrayList<Object> obj = new ArrayList<Object>();
 
@@ -63,5 +63,9 @@ public class ObjectList implements ObjectInterface {
 
     public ArrayList<Object> editObject(Object stu) {
         return obj;
+    }
+
+    public void test(){
+        System.out.println("test");
     }
 }

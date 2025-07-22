@@ -1,9 +1,13 @@
 
 import java.util.ArrayList;
 
+import Interfaces.ObjectCreate;
+import Interfaces.ObjectInterface;
+
 import java.lang.Object;
 
 public class ObjectList implements ObjectInterface, ObjectCreate{
+    //class can implements many Interface
 
     ArrayList<Object> obj = new ArrayList<Object>();
 

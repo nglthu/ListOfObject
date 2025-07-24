@@ -13,4 +13,5 @@ public interface ObjectInterface {
     public ArrayList<Object> editObject(Object obj);
 
     public void readObject();
+    public void readObject(ArrayList<Object> o);
 }

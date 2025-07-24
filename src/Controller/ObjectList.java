@@ -42,6 +42,7 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
                 System.out.print("Object :");
 
                 System.out.println(obj.get(i).getClass().getName());
+
                 System.out.print("ID :");
                 //getInt
                 System.out.println(obj.get(i).getClass().getField("ID").getInt(obj.get(i)));
@@ -68,15 +69,71 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
 
     }
 
+    public void readObject(ArrayList<Object> obj1){
+        try {
+            for (int i = 0; i < obj1.size(); i++)
+
+            {
+                System.out.print("Object :");
+
+                System.out.println(obj1.get(i).getClass().getName());
+
+                System.out.print("ID :");
+                //getInt
+                System.out.println(obj1.get(i).getClass().getField("ID").getInt(obj1.get(i)));
+
+                System.out.print("Name :");
+                //get
+                System.out.println(obj1.get(i).getClass().getField("Name").get(obj1.get(i)));
+
+                System.out.print("field 3 :");
+
+                System.out.println(obj1.get(i).getClass().getField("varString1").get(obj1.get(i)));
+
+                System.out.print("field 4 :");
+
+                System.out.println(obj1.get(i).getClass().getField("varInt1").getInt(obj1.get(i)));
+
+                System.out.println("=========================");
+
+
+            }
+        } catch (Exception e) {
+            e.getStackTrace();
+        }
+
+    }
+
+
     public ArrayList<Object> deleteObject(Object stu) {
         return obj;
     }
 
-    public ArrayList<Object> editObject(Object stu) {
+    public ArrayList<Object> editObject(String nameOfObject, int ID) {
+
+        for (int i =0 ; i <obj.size(); i++){
+            if (obj.get(i).getClass().getName().equalsIgnoreCase(nameOfObject)){
+               
+                    System.out.print("hello");
+
+
+                
+                
+
+            }
+
+        }
         return obj;
     }
 
     public void test(){
         System.out.println("test");
+    }
+
+    @Override
+    public ArrayList<Object> editObject(Object obj) {
+        // TODO Auto-generated method stub
+        
+        throw new UnsupportedOperationException("Unimplemented method 'editObject'");
     }
 }

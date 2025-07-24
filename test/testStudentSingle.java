@@ -29,5 +29,7 @@ public class testStudentSingle {
             System.out.println(e);
         }
 
+        ol.editObject("Student", 10);
+
     }
 }

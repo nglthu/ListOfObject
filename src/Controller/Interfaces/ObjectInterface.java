@@ -14,4 +14,5 @@ public interface ObjectInterface {
 
     public void readObject();
     public void readObject(ArrayList<Object> o);
+    public void test();
 }

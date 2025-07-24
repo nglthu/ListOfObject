@@ -133,7 +133,11 @@ public class ObjectList implements ObjectInterface, ObjectCreate{
     @Override
     public ArrayList<Object> editObject(Object obj) {
         // TODO Auto-generated method stub
-        
+
+        System.out.println("test callback");
+
         throw new UnsupportedOperationException("Unimplemented method 'editObject'");
     }
+
+    
 }

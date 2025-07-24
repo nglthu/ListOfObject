@@ -1,32 +1,21 @@
 
 public class testCallback {
 
-
-    public static void  test(){
+    public static void test() {
         Student student1 = new Student("Le Thu Nguyen", 10);
         Student student2 = new Student("Le Van Hung", 99);
         Student student3 = new Student("Nguyen Le Thu", 11, "Hanoi", "Ma345555", 10, 10);
 
         Book b = new Book("Thinking in Java", 100);
 
-       //implements interface
-       ObjectList ol = new ObjectList();
+        // implements interface
+        ObjectList ol = new ObjectList();
 
-      
-       ol.createObject(student1);
-       ol.createObject(student2);
-       ol.createObject(student3);
-       ol.createObject(b);
-
-
-       //call back
-       Callback cl = new Callback(ol);
-    
-       cl.test();
-
-
-      
+        // call back
+        Callback cl = new Callback(ol);
+        cl.testObject(student1);
+        cl.test();
 
     }
-    
+
 }

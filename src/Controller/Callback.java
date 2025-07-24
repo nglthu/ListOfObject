@@ -13,6 +13,17 @@ public class Callback {
         // goi lai
 
         callbackReference.readObject();
+        callbackReference.test();
+        
+        System.out.println("call back:" + callbackReference.getClass().getName());
+    }
+
+    public void testObject(Object obj) {
+        // goi lai
+
+        callbackReference.createObject(obj);
+        callbackReference.test();
+        
         System.out.println("call back:" + callbackReference.getClass().getName());
     }
 

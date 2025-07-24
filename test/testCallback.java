@@ -14,6 +14,9 @@ public class testCallback {
         // call back
         Callback cl = new Callback(ol);
         cl.testObject(student1);
+        cl.testObject(student2);
+        cl.testObject(student3);
+        cl.testObject(b);
         cl.test();
 
     }

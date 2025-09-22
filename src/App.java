@@ -14,9 +14,13 @@ public class App {
 
         //ObjectInterface oi = new ObjectInterface();
 
-        giongLoai test = new giongLoai();
+        //giongLoai test = new giongLoai();
 
-        System.out.println("leg : " + test.leg() + "  hand : " + test.hand());
+       // System.out.println("leg : " + test.leg() + "  hand : " + test.hand());
 
+       testOuterInner t = new testOuterInner();
+       t.test();
+
+       
     }
 }

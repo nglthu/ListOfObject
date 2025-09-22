@@ -42,3 +42,35 @@ class Main{
 }
 
 ```
+
+# Set of Object
+Interface: List
+Implemented Class: TreeSet
+
+Data
+```
+Test t1 = new Test(1, 'test1');
+Test t2 = new Test(2, 'test2');
+
+```
+end data
+
+```
+List studentSet  = new TreeSet();
+
+
+//phuong thuc
+ 
+studentSet.add(t1);
+studentSet.add(t2);
+
+//interator
+
+//Iterator interface access elements of Map, List, Set
+
+Iterator i = studentSet.iterator();
+
+//method of Iterator hasNext()
+while(i.hasNext()) System.out.println( ((Student)i.next()).getName());
+
+```

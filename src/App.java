@@ -4,7 +4,8 @@ public class App {
 
      //   testStudentSingle.test();
      //   testGeneric.test();
-     testCallback.test();
+     // testCallback.test();
+        testDogAnimal.test();
 
 
     }

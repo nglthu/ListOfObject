@@ -3,7 +3,9 @@
         "src",
         "test",
         "src/Model",
-        "src/Controller"
+        "src/Controller",
+         "src/Controller/abstract",
+         "src/Controller/Interfaces"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [],

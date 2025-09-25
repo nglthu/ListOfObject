@@ -6,7 +6,7 @@ public class Book {
     public int varInt1;
     public int varInt2;
 
-    Book(String name, int id) {
+    public Book(String name, int id) {
         Name = name;
         ID = id;
     }

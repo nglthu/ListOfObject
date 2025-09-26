@@ -1,7 +1,6 @@
 import Abstract.Leg;
 import Interfaces.Animal;
 import Interfaces.HandInterface;
-import Interfaces.LegInterface;
 
 public class Dog implements HandInterface, LegInterface, Animal {
   

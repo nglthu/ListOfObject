@@ -1,7 +1,7 @@
 package Abstract;
 
 public abstract class Hand {
-    public void grab();
+    public abstract void grab();
     public void noOfHands(){
         System.out.println("I have hands :");
 

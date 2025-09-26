@@ -15,6 +15,5 @@ public interface Animal {
     public int leg();
 
 
-    Animal(){};
 }
 

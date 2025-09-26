@@ -11,6 +11,7 @@ public class testOuterInner {
 
     public void test(){
         inner.test();
+        
     }
 
     

@@ -18,9 +18,9 @@ public class App {
 
        // System.out.println("leg : " + test.leg() + "  hand : " + test.hand());
 
-       testOuterInner t = new testOuterInner();
-       t.test();
+      // testOuterInner t = new testOuterInner();
+      // t.test();
 
-       
+       testCalleeCallback.test();
     }
 }
